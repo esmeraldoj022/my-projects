@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+body {
+    background-color: lightgray;
+}
+
 header {
     background-color: gray;
 }
@@ -32,4 +36,24 @@ header li {
 
 header li:hover {
     background-color: rgb(116, 111, 111);
+}
+
+main {
+    width: 80vw;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+main h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
 }
