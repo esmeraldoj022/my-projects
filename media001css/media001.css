@@ -18,28 +18,4 @@ html {
     height: 100vh;
 }
 
-body {
-    background-image: url("../pacote-imagens-cap25/imagens/back-phone.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
-main {
-    background-color: var(--cor2);
-    text-align: center;
-    padding: 20px;
-    margin: auto;
-    margin-top: 20px;
-    width: 80vw;
-}
-
-main h1 {
-    text-align: center;
-}
-
-main p {
-    text-align: justify;
-    margin-top: 15px;
-}
