@@ -20,8 +20,22 @@ header h1 {
     color: white;
 }
 
-header menu {
+#burger {
+    color: white;
+    background-color: rgb(58, 58, 58);
+    text-align: center;
     display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover {
+    color: rgb(58, 58, 58);
+    background-color: white;
+}
+
+header menu {
+    display: none;
 }
 
 header li {
@@ -31,7 +45,7 @@ header li {
     padding: 10px;
     color: white;
     border-top: 2px solid gray;
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(83, 80, 80);
 }
 
 header li:hover {
