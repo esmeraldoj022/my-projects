@@ -6,8 +6,9 @@
     <title>New project</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="estilo/media001.css">
+    <link rel="stylesheet" href="estilo/media002.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>
             Meu Site
@@ -37,6 +38,14 @@
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                iten.style.display = "block"
+            } else {
+                iten.style.display = "none"
+            }
+        }
+
         function clickMenu() {
             if (iten.style.display == "block") {
                 iten.style.display = "none"
