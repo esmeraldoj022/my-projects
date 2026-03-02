@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <link rel="stylesheet" href="logstyle/project01.css">
     <link rel="stylesheet" href="logstyle/project02.css">
 </head>
@@ -21,7 +22,18 @@
                     Seja Bem-Vindo(a)
                 </p>
                 <form action="#" method="post">
-                    
+                    <div class="camp">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="log" id="ilog" placeholder="e-mail" required autocomplete="email" maxlength="30">
+                        <label for="ilog">Log in</label>
+                    </div>
+                    <div class="camp">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="pass" id="ipass" placeholder="password" maxlength="8" required autocomplete="current-password">
+                        <label for="ipass">Password</label>
+                    </div>
+                    <input type="submit" value="Log in"> <br>
+                    <a href="#">forget my password</a>
                 </form>
             </div>
         </section>

@@ -14,13 +14,13 @@
     }
 
     main {
-        max-width: 90vw;
+        max-width: 75vw;
         display: block;
         margin: auto;
     }
 
     #login {
-        width: 90vw;
+        width: 75vw;
         display: inline-block;
         position: relative;
     }
@@ -37,7 +37,7 @@
         position: absolute;
         top: 50%;
         left: 60%;
-        transform: translate(-10%, -100%);
+        transform: translate(-15%, -90%);
     }
 }
 
@@ -58,17 +58,17 @@
     }
 
     #img {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
-        border-radius: 20px 0px 0px 20px;
+        border-radius: 0px 20px 20px 0px;
     }
 
     #form {
-        float: right;
+        float: left;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(90%, -70%);
+        transform: translate(-130%, -60%);
     }
 }
