@@ -13,7 +13,7 @@
     --cor2: black; 
     --cor3: #49a09d;
     --cor4: rgba(119, 160, 173, 0.788);
-
+    --cor5: #295a58;
  }
 
 * {
@@ -65,4 +65,70 @@ main {
 
 #form p {
     padding: 10px;
+}
+
+#link {
+    margin-top: 10px;
+}
+
+.camp {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 12px;
+    position: relative;
+}
+
+.camp .material-symbols-outlined {
+    position: absolute;
+    top: 20%;
+    left: -1%;
+}
+
+.camp input {
+    height: 40px;
+    border-radius: 20px;
+    padding: 13px;
+}
+
+.camp label {
+    display: none;
+}
+
+form  input[type=submit] {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    height: 30px;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+form input[type=submit]:hover {
+    background-color: var(--cor5);
+}
+
+.button {
+    text-decoration: none;
+    color: var(--cor2);
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: var(--cor2);
+    color: var(--cor1);
+    border-radius: 20px;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+
+.button:hover {
+    border: 2px solid var(--cor2);
+    background-color: var(--cor1);
+    color: var(--cor2);
+    padding-top: 1px;
 }

@@ -8,6 +8,8 @@
 
  }
 
+ /* tablet settings */
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, var(--cor4), var(--cor1));
@@ -37,9 +39,24 @@
         position: absolute;
         top: 50%;
         left: 60%;
-        transform: translate(-15%, -90%);
+        transform: translate(-10%, -50%);
+    }
+
+    .capm {
+        position: relative;
+    }
+
+    .camp .material-symbols-outlined {
+        position: absolute;
+        left: -15%;
+    }
+
+    .camp input {
+        width: 100%;
     }
 }
+
+/* large screen settings */
 
 @media screen and (min-width: 992px) {
     body {
@@ -69,6 +86,19 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-130%, -60%);
+        transform: translate(-155%, -50%);
+    }
+
+    .camp {
+        position: relative;
+    }
+
+    .camp .material-symbols-outlined {
+        position: absolute;
+        left: -15%;
+    }
+
+    .camp input {
+        width: 100%;
     }
 }
