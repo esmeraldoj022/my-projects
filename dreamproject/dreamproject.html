@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="dreamprojectmedia/dreamproject.css">
+    <link rel="stylesheet" href="dreamprojectmedia/dreamproject01.css">
 </head>
 <body>
-    
+    <main>
+        <section>
+            <h1>
+                Sign up
+            </h1>
+            <p>
+            Welcome, We're glad to have you here!
+            </p>
+            <form action="" method="post">
+                <div class="camp">
+                    <label for="iuser">
+                        <span class="material-symbols-outlined">person</span>
+                    </label>
+                    <input type="text" name="user" id="iuser" placeholder="admin" required autocomplete="off">
+                </div>
+                <div class="camp">
+                    <label for="iemail">
+                        <span class="material-symbols-outlined">mail</span>
+                    </label>
+                    <input type="email" name="email" id="iemail" placeholder="e-mail" required autocomplete="off">
+                </div>
+                <div class="camp">
+                    <label for="ipass">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                    </label>
+                    <input type="password" name="pass" id="ipass" placeholder="password" minlength="8" maxlength="16" required autocomplete="off">
+                </div>
+                <div id="submit">
+                    <input type="submit" value="Sign up">
+                </div>
+                <a href="#">
+                    <button>
+                        Log in
+                    </button>
+                </a>
+            </form>
+            <p id="foot">
+                <small>
+                    This Sign up is only for the administrator
+                </small>
+            </p>
+        </section>
+    </main>
 </body>
 </html>

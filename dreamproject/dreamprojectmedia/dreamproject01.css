@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
+        width: 450px
+    }
+
+    .camp {
+        position: relative;
+    }
+
+    .camp label {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(85%, -40%);
+    }
+
+    #submit input {
+        width: 225px;
+        padding: 4px;
+    }
+
+    main section form a button {
+        width: 225px;
+        padding: 4px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        position: relative;
+    }
+
+    main {
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 25%);
+    }
+
+    .camp {
+        position: relative;
+    }
+
+    .camp label {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(150%, -40%);
+    }
+
+    main p {
+        margin-top: 30px;
+    }
+
+    #submit input {
+        width: 225px;
+        padding: 5px;
+    }
+
+    main section form a button {
+        width: 225px;
+        padding: 5px;
+    }
+}
