@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        position: relative;
+    }
+
     main {
-        width: 450px
+        width: 450px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 60%);
     }
 
     .camp {
@@ -38,7 +46,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 25%);
+        transform: translate(-50%, 50%);
     }
 
     .camp {
@@ -78,7 +86,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 25%);
+        transform: translate(-50%, 50%);
     }
 
     .camp {
