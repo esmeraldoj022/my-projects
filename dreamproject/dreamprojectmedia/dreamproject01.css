@@ -27,7 +27,47 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        position: relative;
+    }
+
+    main {
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 25%);
+    }
+
+    .camp {
+        position: relative;
+    }
+
+    .camp label {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(150%, -40%);
+    }
+
+    main p {
+        margin-top: 30px;
+    }
+
+    #submit input {
+        width: 225px;
+        padding: 5px;
+    }
+
+    main section form a button {
+        width: 225px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     body {
         position: relative;
     }
