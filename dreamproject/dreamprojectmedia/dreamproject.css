@@ -1,2 +1,63 @@
 @charset "UTF;8";
 
+@media screen and (max-width: 600px) {
+
+:root {
+    --var1: black;
+    --var2: white;
+    --var3: rgb(231, 230, 230);
+}
+
+body {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--var3);
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    background-color: var(--var2);
+    width: 80vw;
+    border-radius: 5px;
+}
+
+main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+main p {
+    text-align: center;
+}
+
+main form {
+    text-align: center;
+    padding: 10px;
+}
+
+main section .camp {
+    position: relative;
+    padding: 7px;
+    margin-left: 12px;
+}
+
+main section .camp label {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-80%, -45%);
+    padding: 7px;
+}
+
+main section .camp input {
+    padding: 2.5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+}
