@@ -10,7 +10,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-align: center;
-    background-color: green;
+    background-color: red;
     padding: 20px;
     margin-top: 0px;
     width: 300px;
@@ -21,3 +21,6 @@ h1 {
     transform: translate(-50%, 50%);
 }
 
+h1:hover {
+    background-color: green;
+}
