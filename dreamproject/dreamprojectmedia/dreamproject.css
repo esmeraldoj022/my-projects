@@ -1,92 +1,58 @@
-@charset "UTF-8";
+@charset "UTF;8";
 
 :root {
-    --cor1: black;
-    --cor2: white;
-    --cor3: lightgray;
-    --cor4: rgb(233, 231, 231);
+    --var1: black;
+    --var2: white;
+    --var3: rgb(231, 230, 230);
 }
 
 body {
+    position: relative;
     margin: 0px;
     padding: 0px;
-    position: relative;
-    background-color: var(--cor4);
+    background-color: var(--var3);
 }
 
 main {
-    background-color: var(--cor2);
-    padding: 20px;
-    width: 300px;
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, 35%);
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.315);
+    top: 50%;
+    transform: translate(-50%, 50%);
+    background-color: var(--var2);
+    width: 60vw;
+    border-radius: 5px;
 }
 
-h1 {
-    color: var(--cor1);
-    text-align: center;
+main h1 {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+main p {
+    text-align: center;
 }
 
 main form {
     text-align: center;
-    margin-top: 35px;
+    padding: 10px;
 }
 
-.camp {
-    margin-left: 10px;
-    padding: 7px;
+main section .camp {
     position: relative;
+    padding: 7px;
 }
 
-.camp label {
+main section .camp label {
     position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-120%, -40%);
+    left: 10%;
+    top: 10%;
+    transform: translate(-35%, -10%);
+    padding: 7px;
 }
 
-.camp input {
-    margin-left: 10px;
-    border-radius: 3px;
+main section .camp input {
+    padding: 2.5px;
+    border-radius: 5px;
     border: 1px solid black;
-    padding: 3px;
-}
-
-#submit input {
-    padding: 2px;
-    margin-top: 30px;
-    width: 200px;
-    border: 1px solid black;
-    border-radius: 3px;
-    background-color: var(--cor2);
-    font-weight: bold;
-}
-
-#submit input:hover {
-    background-color: var(--cor1);
-    color: var(--cor2);
-}
-
-main section form a button {
-    background-color: var(--cor3);
-    color: var(--cor1);
-    font-weight: bold;
-    margin-top: 10px;
-    width: 200px;
-    border-radius: 3px;
-    border: 1px solid black;
-}
-
-main section form a button:hover {
-    background-color: var(--cor1);
-    color: var(--cor2);
-}
-
-p {
-    color: var(--cor1);
-    text-align: center;
 }
