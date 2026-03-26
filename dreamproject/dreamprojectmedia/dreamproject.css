@@ -48,7 +48,7 @@ main section .camp label {
     position: absolute;
     left: 30%;
     top: 50%;
-    transform: translate(-120%, -45%);
+    transform: translate(-140%, -45%);
     padding: 7px;
 }
 
