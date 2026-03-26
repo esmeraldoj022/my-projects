@@ -41,14 +41,15 @@ main form {
 main section .camp {
     position: relative;
     padding: 7px;
-    margin-left: 12px;
+    margin-left: 30px;
+    max-width: 320px;
 }
 
 main section .camp label {
     position: absolute;
     left: 30%;
     top: 50%;
-    transform: translate(-140%, -45%);
+    transform: translate(-200%, -45%);
     padding: 7px;
 }
 
