@@ -19,7 +19,7 @@ main {
     top: 50%;
     transform: translate(-50%, 50%);
     background-color: var(--var2);
-    width: 60vw;
+    width: 80vw;
     border-radius: 5px;
 }
 
@@ -41,13 +41,14 @@ main form {
 main section .camp {
     position: relative;
     padding: 7px;
+    margin-left: 12px;
 }
 
 main section .camp label {
     position: absolute;
     left: 10%;
     top: 10%;
-    transform: translate(-35%, -10%);
+    transform: translate(-80%, -10%);
     padding: 7px;
 }
 
@@ -55,4 +56,5 @@ main section .camp input {
     padding: 2.5px;
     border-radius: 5px;
     border: 1px solid black;
+    margin-left: 5px;
 }
