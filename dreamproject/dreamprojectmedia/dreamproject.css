@@ -1,5 +1,7 @@
 @charset "UTF;8";
 
+@media screen and (min-width: 330px) and (max-width: 340px) {
+
 :root {
     --var1: black;
     --var2: white;
@@ -46,9 +48,9 @@ main section .camp {
 
 main section .camp label {
     position: absolute;
-    left: 10%;
-    top: 10%;
-    transform: translate(-80%, -10%);
+    left: 20px;
+    top: 20px;
+    transform: translate(-25px, -20px);
     padding: 7px;
 }
 
@@ -57,4 +59,5 @@ main section .camp input {
     border-radius: 5px;
     border: 1px solid black;
     margin-left: 5px;
+}
 }
