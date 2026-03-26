@@ -1,5 +1,6 @@
 @charset "UTF;8";
 
+/* mobile first: default settings */
 :root {
     --var1: black;
     --var2: white;
