@@ -60,3 +60,38 @@ main section .camp input {
     border: 1px solid black;
     margin-left: 5px;
 }
+
+main section #submit input {
+    padding: 2.5px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 200px;
+    color: var(--var1);
+    background-color: var(--var3);
+    font-weight: bolder;
+    border: 1px solid var(--var1);
+    border-radius: 5px;
+}
+
+main section #submit input:hover {
+    color: var(--var2);
+    background-color: var(--var1);
+}
+
+main section a button {
+    color: var(--var1);
+    background-color: var(--var2);
+    font-weight: bolder;
+    width: 200px;
+    padding: 2.5px;
+    margin-top: 7px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--var1);
+}
+
+main section a button:hover {
+    color: var(--var2);
+    background-color: var(--var1);
+}
