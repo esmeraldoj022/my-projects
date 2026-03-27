@@ -1,47 +1,13 @@
 @charset "UTF-8";
 
-body {
-  font-family: Arial;
-  padding: 50px;
+.container {
+    display: flex;
+    background-color: lightsalmon;
 }
 
-/* container */
-.form-group {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-/* input */
-.form-group input {
-  width: 100%;
-  padding: 12px 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  outline: none;
-}
-
-/* label (texto que vai subir) */
-.form-group label {
-  position: absolute;
-  left: 10px;
-  top: 12px;
-  color: #777;
-  font-size: 16px;
-  pointer-events: none;
-  transition: 0.3s ease;
-  background: white;
-  padding: 0 5px;
-}
-
-/* quando focar OU tiver texto */
-.form-group input:focus + label,
-.form-group input:valid + label {
-  top: -10px;
-  font-size: 12px;
-  color: blue;
-}
-
-/* efeito no input ao focar */
-.form-group input:focus {
-  border: 2px solid blue;
+.filho {
+    background-color: lightblue;
+    flex: auto;
+    border: 1px solid black;
+    text-align: center;
 }
