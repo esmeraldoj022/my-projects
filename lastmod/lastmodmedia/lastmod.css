@@ -1,13 +1,2 @@
 @charset "UTF-8";
 
-.container {
-    display: flex;
-    background-color: lightsalmon;
-}
-
-.filho {
-    background-color: lightblue;
-    flex: auto;
-    border: 1px solid black;
-    text-align: center;
-}
