@@ -7,7 +7,7 @@
     }
 
    main section .camp {
-    margin: auto;
+    margin-left: 110px;
     position: relative;
    }
 
@@ -27,7 +27,7 @@
     }
 
     main section .camp {
-        margin: auto;
+        margin-left: 175px;
     }
 
     main section .camp label {
@@ -48,7 +48,7 @@
     }
 
     main section .camp {
-        margin: auto;
+        margin-left: 185px;
         position: relative;
     }
 
