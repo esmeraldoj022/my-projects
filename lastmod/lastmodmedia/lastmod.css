@@ -1,29 +1,47 @@
 @charset "UTF-8";
 
-html, body {
-    margin: 0px;
-    padding: 0px;
-    position: relative;
+body {
+  font-family: Arial;
+  padding: 50px;
 }
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: green;
-    text-align: center;
-    background-color: red;
-    padding: 20px;
-    margin-top: 0px;
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+/* container */
+.form-group {
+  position: relative;
+  margin-bottom: 30px;
 }
 
-h1:hover {
-    color: red;
-    background-color: green;
+/* input */
+.form-group input {
+  width: 100%;
+  padding: 12px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
+/* label (texto que vai subir) */
+.form-group label {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  color: #777;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.3s ease;
+  background: white;
+  padding: 0 5px;
+}
 
+/* quando focar OU tiver texto */
+.form-group input:focus + label,
+.form-group input:valid + label {
+  top: -10px;
+  font-size: 12px;
+  color: blue;
+}
+
+/* efeito no input ao focar */
+.form-group input:focus {
+  border: 2px solid blue;
+}
